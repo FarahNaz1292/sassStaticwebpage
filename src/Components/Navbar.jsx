@@ -15,7 +15,6 @@ import WatchAccessories from "../assets/dropdownImages/watches&Accessories.svg";
 import SportsOutdoor from "../assets/dropdownImages/sports&Outdoor.svg";
 import SignUp from "../assets/navbar/signUp.svg";
 import Carticon from "./Svg's/Carticon";
-import "bootstrap/dist/css/bootstrap.min.css";
 const Navbar = () => {
   return (
     <>
@@ -64,15 +63,11 @@ const Navbar = () => {
                 type="button"
                 className="btn btn-primary dropdown-toggle"
                 data-bs-toggle="dropdown"
-                id="dropdownMenuButton1"
                 aria-expanded="false"
               >
                 Category
               </button>
-              <ul
-                className="dropdown-menu"
-                aria-labelledby="dropdownMenuButton1"
-              >
+              <ul className="dropdown-menu">
                 <li>
                   <img src={ElectronicsDevices} alt="" />
                   <a className="dropdown-item" href="#">
