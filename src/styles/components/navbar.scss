@@ -1,0 +1,54 @@
+.navbar {
+  background-color: $primary-color;
+  display: flex;
+  flex-direction: column;
+  .navbar-a {
+    width: 100%;
+    height: 82px;
+    margin-top: 10px;
+    border-bottom: 1px solid $border-color;
+
+    .navbar-inputTag-icons {
+      width: 477px;
+      height: 42px;
+      gap: 55px;
+      .input-text {
+        width: 354px;
+        height: 42px;
+        border-radius: 8px;
+        border: 1px;
+        padding: 10px, 14px, 10px, 14px;
+        gap: 10px;
+        padding-left: 60px;
+        background-color: rgba(255, 255, 255, 0.1);
+        position: relative;
+      }
+      .magnifyingGlass {
+        position: absolute;
+        right: 750px;
+        margin-top: 15px;
+      }
+      .navbar-icons {
+        width: 68px;
+        height: 24px;
+        gap: 20px;
+      }
+    }
+  }
+  .navbar-b {
+    width: 100%;
+    height: 82px;
+
+    .navbar-b-left {
+      width: 187px;
+      gap: 16px;
+    }
+    .navbar-b-right {
+      width: 420px;
+      height: 17px;
+      gap: 40px;
+      top: 12.5px;
+      left: 1020px;
+    }
+  }
+}
