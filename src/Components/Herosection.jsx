@@ -5,6 +5,7 @@ import HeroSectionImage from "../assets/heroSection/heroImage.svg";
 import BigSaleImage from "../assets/heroSection/saleImage.svg";
 import Footer from "./Footer";
 import MiddleSection from "./MiddleSection";
+import FeaturedProducts from "./FeaturedProducts";
 
 const Herosection = () => {
   return (
@@ -75,7 +76,9 @@ const Herosection = () => {
           </div>
         </div>
       </div>
+
       <MiddleSection></MiddleSection>
+      <FeaturedProducts></FeaturedProducts>
       <Footer></Footer>
     </>
   );

@@ -1,0 +1,23 @@
+.featured-product-card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  .featured-card {
+    background-color: rgb(240, 238, 237);
+  }
+  .featured-products-image {
+    position: relative;
+    img {
+      width: 180px;
+      height: 300px;
+      object-fit: contain;
+    }
+    .like-icon {
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      left: 20px;
+      margin-top: 10px;
+    }
+  }
+}
