@@ -1,0 +1,76 @@
+{
+  "trendyProducts": [
+    {
+      "id": 1,
+      "title": "Respira",
+      "image": "/trendyproducts/livingsofa.png",
+      "description": "Outdoor bar table and stool",
+      "discounted-price": "$2,500.00",
+      "original-price": "3,500.00",
+      "discount": "25%"
+    },
+    {
+      "id": 2,
+      "title": "Headphones",
+      "image": "/trendyproducts/headphones.png",
+      "description": "Mellons Brand",
+      "discounted-price": "$2,500.00",
+      "original-price": "3,500.00",
+      "discount": "25%"
+    },
+    {
+      "id": 3,
+      "title": "Laptop",
+      "image": "/trendyproducts/laptop.png",
+      "description": "HP brand",
+      "discounted-price": "$2,500.00",
+      "original-price": "3,500.00",
+      "discount": "25%"
+    },
+    {
+      "id": 4,
+      "title": "Leviosa",
+      "image": "/trendyproducts/chair.png",
+      "description": "Stylish cafe chair",
+      "discounted-price": "$2,500.00",
+      "original-price": "3,500.00",
+      "discount": "25%"
+    },
+    {
+      "id": 5,
+      "title": "Barboreal Gray Sweats",
+      "image": "/trendyproducts/sweatshirt.png",
+      "description": "Priya's Brand",
+      "discounted-price": "$2,500.00",
+      "original-price": "3,500.00",
+      "discount": "25%"
+    },
+    {
+      "id": 6,
+      "title": "Pingky",
+      "image": "/trendyproducts/sofa.png",
+      "description": "Cute bed set",
+      "discounted-price": "$2,500.00",
+      "original-price": "3,500.00",
+      "discount": "25%"
+    },
+    {
+      "id": 7,
+      "title": "Respira",
+      "image": "/trendyproducts/workoutAppreal.png",
+      "description": "Outdoor bar table and stool",
+      "discounted-price": "$2,500.00",
+      "original-price": "3,500.00",
+      "discount": "25%"
+    },
+    {
+      "id": 8,
+      "title": "Phone",
+      "image": "/trendyproducts/phone.png",
+      "description": "One Plus 8 pro",
+      "discounted-price": "$2,500.00",
+      "original-price": "3,500.00",
+      "discount": "25%"
+    }
+  ]
+}
