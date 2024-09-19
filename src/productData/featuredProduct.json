@@ -7,7 +7,8 @@
       "price": "$225.00",
       "originalprice": "$300",
       "ratings": "/featuredproduct/starIcon.svg",
-      "likeIcon": "/featuredproduct/heartIcon.svg"
+      "likeIcon": "/featuredproduct/heartIcon.svg",
+      "discount": "25% off"
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "price": "$225.00",
       "originalprice": "$300",
       "ratings": "/featuredproduct/starIcon.svg",
-      "likeIcon": "/featuredproduct/heartIcon.svg"
+      "likeIcon": "/featuredproduct/heartIcon.svg",
+      "discount": "25% off"
     },
     {
       "id": 3,
@@ -34,7 +36,8 @@
       "price": "$225.00",
       "originalprice": "$300",
       "ratings": "/featuredproduct/starIcon.svg",
-      "likeIcon": "/featuredproduct/heartIcon.svg"
+      "likeIcon": "/featuredproduct/heartIcon.svg",
+      "discount": "25% off"
     },
     {
       "id": 5,
@@ -43,7 +46,8 @@
       "price": "$225.00",
       "originalprice": "$300",
       "ratings": "/featuredproduct/starIcon.svg",
-      "likeIcon": "/featuredproduct/heartIcon.svg"
+      "likeIcon": "/featuredproduct/heartIcon.svg",
+      "discount": "25% off"
     }
   ]
 }

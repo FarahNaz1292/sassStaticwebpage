@@ -4,13 +4,36 @@
       "id": 1,
       "main_title": "Hawaiian Shirts",
       "sub_title": "Dress up in summer vibe",
-      "sale_text": "UPTO 50% OFF"
+      "sale_text": "UPTO 50% OFF",
+      "image": "/latestProducts/roomBackground.png"
     },
     {
       "id": 2,
-      "main_title": "Hawaiian Shirts",
-      "sub_title": "Dress up in summer vibe",
-      "sale_text": "UPTO 50% OFF"
+      "main_title": "Raven Hoodie Design",
+      "sub_title": "New Designs Every Week",
+      "sale_text": "UPTO 50% OFF",
+      "image": "/latestProducts/maskedGirl.png"
+    },
+    {
+      "id": 3,
+      "main_title": "Cargo Joggers",
+      "sub_title": "Move with style & comfort",
+      "sale_text": "UPTO 50% OFF",
+      "image": "/latestProducts/randomGirl.png"
+    },
+    {
+      "id": 4,
+      "main_title": "Urban Shirts",
+      "sub_title": "Live In Comfort",
+      "sale_text": "FLAT 60% OFF",
+      "image": "/latestProducts/randomGuy.png"
+    },
+    {
+      "id": 5,
+      "main_title": "Modern Mobile Phone",
+      "sub_title": "Street Style Icon",
+      "sale_text": "FLAT 60% OFF",
+      "image": "/latestProducts/randomGuy.png"
     }
   ]
 }

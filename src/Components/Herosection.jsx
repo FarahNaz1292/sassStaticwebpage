@@ -6,6 +6,7 @@ import BigSaleImage from "../assets/heroSection/saleImage.svg";
 import Footer from "./Footer";
 import MiddleSection from "./MiddleSection";
 import FeaturedProducts from "./FeaturedProducts";
+import LatestProducts from "./LatestProducts";
 
 const Herosection = () => {
   return (
@@ -79,6 +80,7 @@ const Herosection = () => {
 
       <MiddleSection></MiddleSection>
       <FeaturedProducts></FeaturedProducts>
+      <LatestProducts></LatestProducts>
       <Footer></Footer>
     </>
   );
