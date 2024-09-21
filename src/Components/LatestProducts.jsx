@@ -7,17 +7,19 @@ const LatestProducts = () => {
     <>
       <div>
         <div className="container">
-          <h3 className="fw-bold">Latest Products</h3>
+          <h3 className="fw-bold p-4">Latest Products</h3>
           <div className="latest-products-card gap-5">
             {data.latestProduct.map((latestProducts) => {
               return (
                 <div key={latestProducts.id} className="card">
-                  <div className="card-image">
-                    <img
-                      src={latestProducts.image}
-                      alt=""
-                      className="w-100 h-100"
-                    />
+                  <div
+                    className="w-100 h-100"
+                    style={{
+                      backgroundImage: `url("${latestProducts.image}")`,
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                    }}
+                  >
                     <div className="card-text">
                       <p>{latestProducts.main_title}</p>
                       <p>{latestProducts.sub_title}</p>

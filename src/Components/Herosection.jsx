@@ -7,6 +7,8 @@ import Footer from "./Footer";
 import MiddleSection from "./MiddleSection";
 import FeaturedProducts from "./FeaturedProducts";
 import LatestProducts from "./LatestProducts";
+import Supertrendy from "./Supertrendy";
+import ProductGallery from "./ProductGallery";
 
 const Herosection = () => {
   return (
@@ -81,6 +83,8 @@ const Herosection = () => {
       <MiddleSection></MiddleSection>
       <FeaturedProducts></FeaturedProducts>
       <LatestProducts></LatestProducts>
+      <Supertrendy></Supertrendy>
+      <ProductGallery></ProductGallery>
       <Footer></Footer>
     </>
   );
