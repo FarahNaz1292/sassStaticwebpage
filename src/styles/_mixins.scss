@@ -1,3 +1,5 @@
+@import "./variables";
+
 @mixin discount-code {
   background-color: $new-arrival-text;
   width: 70px;
@@ -8,3 +10,24 @@
   position: absolute;
   right: 0px;
 }
+
+// @mixin smallScreen {
+//   @media (min-width: #{$screen-sm}) {
+//     @content;
+//   }
+// }
+// @mixin smallMaxScreen {
+//   @media (min-width: #{$screen-md}) {
+//     @content;
+//   }
+// }
+// @mixin MediumScreen {
+//   @media (min-width: #{$screen-md}) {
+//     @content;
+//   }
+// }
+// @mixin MediumMaxScreen {
+//   @media (min-width: #{$screen-lg}) {
+//     @content;
+//   }
+// }

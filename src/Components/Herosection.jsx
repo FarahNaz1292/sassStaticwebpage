@@ -15,8 +15,8 @@ const Herosection = () => {
   return (
     <>
       <Navbar></Navbar>
-      <div className="hero-section d-flex ">
-        <div className="d-flex container mt-4 hero-section-content">
+      <div className="hero-section d-flex">
+        <div className="d-lg-flex main-container mt-4 hero-section-content">
           <div className="m-5 w-50">
             <div className="d-flex gap-2 mt-5">
               <img src={Star} alt="" className="mb-2" />
