@@ -6,7 +6,7 @@ const LatestProducts = () => {
   return (
     <>
       <div>
-        <div className="container">
+        <div className="main-container">
           <h3 className="fw-bold p-4">Latest Products</h3>
           <div className="latest-products-card gap-5">
             {data.latestProduct.map((latestProducts) => {

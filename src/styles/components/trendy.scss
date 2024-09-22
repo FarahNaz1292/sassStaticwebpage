@@ -8,20 +8,13 @@
   align-items: center;
   justify-content: center;
   .trendy-discount-code {
-    background-color: rgb(241, 90, 42);
-    width: 70px;
-    height: 25px;
-    text-wrap: nowrap;
-    color: white;
-    text-align: center;
-    position: absolute;
-    right: 0.5px;
+    @include discount-code;
   }
   .trendy-cards {
     width: 18rem;
     border-style: none;
   }
   .trendy-card-body {
-    background-color: rgb(240, 238, 237);
+    background-color: $back-ground-color;
   }
 }

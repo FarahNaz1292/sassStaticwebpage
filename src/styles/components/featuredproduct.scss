@@ -1,8 +1,10 @@
 .featured-product-card {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+
+  width: 350px;
   .featured-card {
-    background-color: rgb(240, 238, 237);
+    background-color: $back-ground-color;
   }
   .featured-products-image {
     position: relative;
@@ -12,14 +14,7 @@
       object-fit: contain;
     }
     .discount-code {
-      background-color: rgb(241, 90, 42);
-      width: 70px;
-      height: 25px;
-      text-wrap: nowrap;
-      color: white;
-      text-align: center;
-      position: absolute;
-      right: 0px;
+      @include discount-code;
     }
     .like-icon {
       width: 25px;

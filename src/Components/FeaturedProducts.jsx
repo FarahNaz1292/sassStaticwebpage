@@ -22,7 +22,7 @@ const FeaturedProducts = () => {
           {data.products.map((product) => {
             return (
               <SwiperSlide>
-                <div className=" container featured-product-card">
+                <div className=" main-container featured-product-card">
                   <div
                     key={product.id}
                     className="card  border-0 featured-card"

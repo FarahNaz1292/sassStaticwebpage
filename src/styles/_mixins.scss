@@ -1,0 +1,10 @@
+@mixin discount-code {
+  background-color: $new-arrival-text;
+  width: 70px;
+  height: 25px;
+  text-wrap: nowrap;
+  color: white;
+  text-align: center;
+  position: absolute;
+  right: 0px;
+}

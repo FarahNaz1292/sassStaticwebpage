@@ -12,7 +12,7 @@ const CategorySection = () => {
   return (
     <>
       <div className="category">
-        <div className="container swipper-container">
+        <div className="main-container swipper-container">
           <div className="swipper-container-left-side">
             <h2>
               50+ Beautiful & Modern <br /> Category Product
@@ -29,7 +29,7 @@ const CategorySection = () => {
             <Swiper
               slidesPerView={"auto"}
               effect={"coverflow"}
-              spaceBetween={10}
+              // spaceBetween={10}
               centeredSlides={true}
               pagination={true}
               navigation={true}

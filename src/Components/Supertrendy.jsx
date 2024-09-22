@@ -7,7 +7,7 @@ const Supertrendy = () => {
     <>
       <div>
         <h2 className="text-center fw-bold p-5 m-5">Super Trendy Product</h2>
-        <div className="card-grid container">
+        <div className="card-grid main-container">
           {data.trendyProducts.map((product) => {
             return (
               <div key={product.id}>

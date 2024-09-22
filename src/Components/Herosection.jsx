@@ -26,7 +26,7 @@ const Herosection = () => {
               <img src={Star} alt="" className="mb-2" />
             </div>
             <div>
-              <h1 className="text-nowrap">
+              <h1 className="text-nowrap fw-bold">
                 Shop with Confidence: <br /> Trusted Source for Quality <br />
                 Products
               </h1>
