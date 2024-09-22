@@ -1,0 +1,28 @@
+.category {
+  background-color: rgb(240, 238, 237);
+}
+
+.swipper-container {
+  width: 50vw;
+  display: flex;
+  margin-top: 40px;
+  gap: 50px;
+  .swipper-container-left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-wrap: nowrap;
+    .category-swipper {
+      max-width: 50vw;
+      height: 100%;
+      img {
+        display: block;
+        width: 400px;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

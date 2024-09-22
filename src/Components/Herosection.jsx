@@ -9,6 +9,7 @@ import FeaturedProducts from "./FeaturedProducts";
 import LatestProducts from "./LatestProducts";
 import Supertrendy from "./Supertrendy";
 import ProductGallery from "./ProductGallery";
+import CategorySection from "./CategorySection";
 
 const Herosection = () => {
   return (
@@ -84,6 +85,7 @@ const Herosection = () => {
       <FeaturedProducts></FeaturedProducts>
       <LatestProducts></LatestProducts>
       <Supertrendy></Supertrendy>
+      <CategorySection></CategorySection>
       <ProductGallery></ProductGallery>
       <Footer></Footer>
     </>
