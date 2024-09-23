@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/effect-coverflow";
 import { EffectCoverflow, Navigation, Pagination } from "swiper/modules";
 import Skincare from "../assets/categoryproducts/skincare.png";
 import Shoppingcart from "../assets/categoryproducts/grocerycart.png";
@@ -29,19 +30,21 @@ const CategorySection = () => {
             <Swiper
               slidesPerView={"auto"}
               effect={"coverflow"}
-              // spaceBetween={10}
+              spaceBetween={10}
+              loop={true}
               centeredSlides={true}
               pagination={true}
               navigation={true}
+              grabCursor={true}
               coverflowEffect={{
-                rotate: 20,
+                rotate: 50,
                 stretch: 0,
-                depth: 80,
+                depth: 100,
                 modifier: 1,
-                slideShadows: true,
+                slideShadows: false,
               }}
               modules={[Navigation, Pagination, EffectCoverflow]}
-              className="mySwiper category-swipper"
+              className="mySwiper"
             >
               <SwiperSlide>
                 <img src={Skincare} alt="" />

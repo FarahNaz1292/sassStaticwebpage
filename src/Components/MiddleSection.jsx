@@ -5,7 +5,7 @@ import SecureShopping from "../assets/middlesection/secureShopping.svg";
 const MiddleSection = () => {
   return (
     <>
-      <div className=" main-container d-flex  gap-4 mt-4 mb-4">
+      <div className=" main-container d-flex gap-4 mt-4 mb-4">
         <div className="d-flex free-shipping w-75 rounded-2">
           <img src={Shipping} alt="Free shipping" />
           <div className="mt-5">

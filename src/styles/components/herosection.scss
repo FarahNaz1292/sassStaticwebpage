@@ -4,6 +4,7 @@
   background-color: $back-ground-color;
 
   .hero-section-content {
+    display: flex;
     gap: 100px;
     .hero-section-btn {
       background-color: $new-arrival-text;
