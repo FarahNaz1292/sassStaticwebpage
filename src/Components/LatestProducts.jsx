@@ -24,6 +24,7 @@ const LatestProducts = () => {
                       <p>{latestProducts.main_title}</p>
                       <p>{latestProducts.sub_title}</p>
                       <p>{latestProducts.sale_text}</p>
+                      <p className="fw-bold m-4 text-white fs-2">&#8595;</p>
                       <button className="btn btn-light">Shop Now</button>
                     </div>
                   </div>

@@ -17,17 +17,17 @@
   }
 }
 @mixin smallMaxScreen {
-  @media (min-width: #{$screen-md}) {
+  @media (max-width: #{$screen-md}) {
     @content;
   }
 }
 @mixin MediumScreen {
-  @media (min-width: #{$screen-md}) {
+  @media (max-width: #{$screen-md}) {
     @content;
   }
 }
 @mixin MediumMaxScreen {
-  @media (min-width: #{$screen-lg}) {
+  @media (max-width: #{$screen-lg}) {
     @content;
   }
 }
